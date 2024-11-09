@@ -45,9 +45,3 @@ LinkedIn: [Farouk](https://www.linkedin.com/in/farouk-kazeem-750064178/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#) if you want to contribute.
-
----
-
-This README provides a clear overview for anyone looking to understand, install, or contribute to the project. Adjust paths, screenshots, and links according to your actual project setup!
-
----
