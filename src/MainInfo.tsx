@@ -42,49 +42,79 @@ const MainInfo = () => {
         </div>
         {/* What i am doing */}
         <section className="my-5">
-          <div className="text-xl md:text-2xl font-bold mb-5">What I'm doing</div>
+          <div className="text-xl md:text-2xl font-bold mb-5">
+            What I'm doing
+          </div>
 
           <div className="w-full flex flex-col md:flex-row gap-3 flex-wrap items-center">
             {/* Web Development */}
-            <div className="bg-[#2b2b2cbf] w-full md:w-[22rem] h-auto rounded-2xl p-5 flex items-center gap-5">
-              <img src={webDevIcon} alt="web development icon" className="w-12 h-12" />
+            <div className="bg-[#2b2b2cbf] w-auto md:w-[25rem] h-[150px] rounded-2xl p-5 flex items-center gap-5">
+              <img
+                src={webDevIcon}
+                alt="web development icon"
+                className="w-12 h-12"
+              />
               <div>
-                <div className="font-bold text-lg md:text-xl">Front-End Development</div>
+                <div className="font-bold text-lg md:text-xl">
+                  Front-End Development
+                </div>
                 <div className="font-light text-xs md:text-sm mt-1">
-                  Skilled in building responsive, user-friendly interfaces with React and Next.js.
+                  Skilled in building responsive, user-friendly interfaces with
+                  React and Next.js.
                 </div>
               </div>
             </div>
 
             {/* Mobile Development */}
-            <div className="bg-[#2b2b2cbf] w-full md:w-[22rem] h-auto rounded-2xl p-5 flex items-center gap-5">
-              <img src={mobileDevIcon} alt="mobile development icon" className="w-12 h-12" />
+            <div className="bg-[#2b2b2cbf] w-auto md:w-[25rem] h-[150px] rounded-2xl p-5 flex items-center gap-5">
+              <img
+                src={mobileDevIcon}
+                alt="mobile development icon"
+                className="w-12 h-12"
+              />
               <div>
-                <div className="font-bold text-lg md:text-xl">Back-End Development</div>
+                <div className="font-bold text-lg md:text-xl">
+                  Back-End Development
+                </div>
                 <div className="font-light text-xs md:text-sm mt-1">
-                  Proficient in creating secure, scalable back-end systems with Node.js and Express.
+                  Proficient in creating secure, scalable back-end systems with
+                  Node.js and Express.
                 </div>
               </div>
             </div>
 
             {/* Full-Stack Architecture */}
-            <div className="bg-[#2b2b2cbf] w-full md:w-[22rem] h-auto rounded-2xl p-5 flex items-center gap-5">
-              <img src={mobileDevIcon} alt="full-stack development icon" className="w-12 h-12" />
+            <div className="bg-[#2b2b2cbf] w-auto md:w-[25rem] h-[150px] rounded-2xl p-5 flex items-center gap-5">
+              <img
+                src={mobileDevIcon}
+                alt="full-stack development icon"
+                className="w-12 h-12"
+              />
               <div>
-                <div className="font-bold text-lg md:text-xl">Full-Stack Application Architecture</div>
+                <div className="font-bold text-lg md:text-xl">
+                  Full-Stack Application Architecture
+                </div>
                 <div className="font-light text-xs md:text-sm mt-1">
-                  Experienced in designing applications with seamless integration across front-end and back-end.
+                  Experienced in designing applications with seamless
+                  integration across front-end and back-end.
                 </div>
               </div>
             </div>
 
             {/* Continuous Learning */}
-            <div className="bg-[#2b2b2cbf] w-full md:w-[22rem] h-auto rounded-2xl p-5 flex items-center gap-5">
-              <img src={mobileDevIcon} alt="continuous learning icon" className="w-12 h-12" />
+            <div className="bg-[#2b2b2cbf] w-auto md:w-[25rem] h-[150px] rounded-2xl p-5 flex items-center gap-5">
+              <img
+                src={mobileDevIcon}
+                alt="continuous learning icon"
+                className="w-12 h-12"
+              />
               <div>
-                <div className="font-bold text-lg md:text-xl">Continuous Learning & Adaptation</div>
+                <div className="font-bold text-lg md:text-xl">
+                  Continuous Learning & Adaptation
+                </div>
                 <div className="font-light text-xs md:text-sm mt-1">
-                  Dedicated to staying current with new technologies and best practices in full-stack development.
+                  Dedicated to staying current with new technologies and best
+                  practices in full-stack development.
                 </div>
               </div>
             </div>
