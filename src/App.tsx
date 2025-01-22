@@ -7,6 +7,7 @@ import Resume from "./Resume";
 import SideInfo from "./SideInfo";
 import NavBar from "./NavBar";
 import NoPage from "./NoPage";
+import ContactMe from "./ContactMe";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <Route path="/resume" element={<Resume />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<NoPage />} />
+            <Route path="/contact" element={<ContactMe />} />
             <Route path="*" element={<NoPage />} />
           </Routes>
         </main>
