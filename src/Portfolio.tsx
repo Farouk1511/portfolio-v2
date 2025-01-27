@@ -1,13 +1,13 @@
 import NavBar from "./NavBar";
-import project1 from "./assets/images/project-1.jpg"
-import project2 from "./assets/images/project-2.png"
-import project3 from "./assets/images/project-3.jpg"
-import project4 from "./assets/images/project-4.png"
-import project5 from "./assets/images/project-5.png"
-import project6 from "./assets/images/project-6.png"
-import project7 from "./assets/images/project-7.png"
-import project8 from "./assets/images/project-8.jpg"
-import project9 from "./assets/images/project-9.png"
+import project1 from "./assets/images/project-magement-app-desktop-preview.png";
+import project2 from "./assets/images/glass-tree-desktop-preview.png";
+import project3 from "./assets/images/fylo-dark-desktop-preview.jpg";
+import project4 from "./assets/images/social-media-desktop-preview.jpg";
+import project5 from "./assets/images/huddle-desktop-preview.jpg";
+import project6 from "./assets/images/job-listing-desktop-preview.jpg";
+import project7 from "./assets/images/insure-desktop-preview.jpg";
+import project8 from "./assets/images/clipboard-desktop-preview.jpg";
+import project9 from "./assets/images/ping-desktop-preview.jpg";
 
 const Portfolio = () => {
   return (
@@ -35,100 +35,125 @@ const Portfolio = () => {
             Applications
           </div>
         </div>
-        {/* Porfolio container */}
+        {/* Porfolio filler */}
+        {/* To-do: Create an object with all the info so we can easily update the content without touching the code */}
         <div className="flex flex-wrap gap-5 my-5">
           {/* porfoilio box */}
           <div>
-            <div className="h-48 w-64 rounded-2xl bg-slate-500">
-                <img className="rounded-2xl" src={project1}/>
-            </div>
-            <div className="flex flex-col mt-3 px-2">
-              <h1 className="font-bold">Finance</h1>
-              <p className="text-[#d6d6d6]">Web development</p>
-            </div>
+            <a
+              href="https://project-management-tool-rust.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="h-48 w-64  ">
+                <img
+                  className=" object-fill h-full w-full"
+                  src={project1}
+                  alt="Project Management Tool"
+                />
+              </div>
+              <div className="flex flex-col mt-3 px-2">
+                <h1 className="font-bold">Project Management Tool</h1>
+                <p className="text-[#d6d6d6]">Web development</p>
+              </div>
+            </a>
           </div>
           {/* porfoilio box */}
           <div>
-            <div className="h-48 w-64 rounded-2xl bg-slate-500">
-                <img className="rounded-2xl" src={project2}/>
-            </div>
-            <div className="flex flex-col mt-3 px-2">
-              <h1 className="font-bold">Finance</h1>
-              <p className="text-[#d6d6d6]">Web development</p>
-            </div>
+            <a href="https://glass-tree.vercel.app/" target="_blank" rel="noreferrer">
+              <div className="h-48 w-64 ">
+                <img className=" object-fill h-full w-full" src={project2} />
+              </div>
+              <div className="flex flex-col mt-3 px-2">
+                <h1 className="font-bold">GlassTree Marketplace</h1>
+                <p className="text-[#d6d6d6]">Web development</p>
+              </div>
+            </a>
           </div>
           {/* porfoilio box */}
           <div>
-            <div className="h-48 w-64 rounded-2xl bg-slate-500">
-                <img className="rounded-2xl" src={project3}/>
-            </div>
-            <div className="flex flex-col mt-3 px-2">
-              <h1 className="font-bold">Finance</h1>
-              <p className="text-[#d6d6d6]">Web development</p>
-            </div>
+            <a href="https://fylo-dark-theme-landing-page.vercel.app/" target="_blank" rel="noreferrer">
+              <div className="h-48 w-64 ">
+                <img className=" object-fill h-full w-full" src={project3} />
+              </div>
+              <div className="flex flex-col mt-3 px-2">
+                <h1 className="font-bold">Fylo</h1>
+                <p className="text-[#d6d6d6]">Web development</p>
+              </div>
+            </a>
           </div>
           {/* porfoilio box */}
           <div>
-            <div className="h-48 w-64 rounded-2xl bg-slate-500">
-                <img className="rounded-2xl" src={project4}/>
-            </div>
-            <div className="flex flex-col mt-3 px-2">
-              <h1 className="font-bold">Finance</h1>
-              <p className="text-[#d6d6d6]">Web development</p>
-            </div>
+            <a href="https://farouk1511.github.io/social-media-dashboard-with-theme-switcher/" target="_blank" rel="noreferrer">
+              <div className="h-48 w-64 ">
+                <img className=" object-fill h-full w-full" src={project4} />
+              </div>
+              <div className="flex flex-col mt-3 px-2">
+                <h1 className="font-bold">Social Media Tracker</h1>
+                <p className="text-[#d6d6d6]">Web development</p>
+              </div>
+            </a>
           </div>
           {/* porfoilio box */}
           <div>
-            <div className="h-48 w-64 rounded-2xl bg-slate-500">
-                <img className="rounded-2xl" src={project5}/>
-            </div>
-            <div className="flex flex-col mt-3 px-2">
-              <h1 className="font-bold">Finance</h1>
-              <p className="text-[#d6d6d6]">Web development</p>
-            </div>
+            <a href="https://farouk1511.github.io/huddle-landing-page-with-curved-sections/" target="_blank" rel="noreferrer">
+              <div className="h-48 w-64 ">
+                <img className=" object-fill h-full w-full" src={project5} />
+              </div>
+              <div className="flex flex-col mt-3 px-2">
+                <h1 className="font-bold">Huddle</h1>
+                <p className="text-[#d6d6d6]">Web development</p>
+              </div>
+            </a>
           </div>
           {/* porfoilio box */}
           <div>
-            <div className="h-48 w-64 rounded-2xl bg-slate-500">
-                <img className="rounded-2xl" src={project6}/>
-            </div>
-            <div className="flex flex-col mt-3 px-2">
-              <h1 className="font-bold">Finance</h1>
-              <p className="text-[#d6d6d6]">Web development</p>
-            </div>
+            <a href="https://farouk1511.github.io/static-job-lisiting/" target="_blank" rel="noreferrer">
+              <div className="h-48 w-64 ">
+                <img className=" object-fill h-full w-full" src={project6} />
+              </div>
+              <div className="flex flex-col mt-3 px-2">
+                <h1 className="font-bold">Job Listing</h1>
+                <p className="text-[#d6d6d6]">Web development</p>
+              </div>
+            </a>
           </div>
           {/* porfoilio box */}
           <div>
-            <div className="h-48 w-64 rounded-2xl bg-slate-500">
-                <img className="rounded-2xl" src={project7}/>
-            </div>
-            <div className="flex flex-col mt-3 px-2">
-              <h1 className="font-bold">Finance</h1>
-              <p className="text-[#d6d6d6]">Web development</p>
-            </div>
+            <a href="https://farouk1511.github.io/insure-landing-page/" target="_blank" rel="noreferrer">
+              <div className="h-48 w-64 ">
+                <img className=" object-fill h-full w-full" src={project7} />
+              </div>
+              <div className="flex flex-col mt-3 px-2">
+                <h1 className="font-bold">Insure</h1>
+                <p className="text-[#d6d6d6]">Web development</p>
+              </div>
+            </a>
           </div>
           {/* porfoilio box */}
           <div>
-            <div className="h-48 w-64 rounded-2xl bg-slate-500">
-            <img className="rounded-2xl" src={project8}/>
-            </div>
-            <div className="flex flex-col mt-3 px-2">
-              <h1 className="font-bold">Finance</h1>
-              <p className="text-[#d6d6d6]">Web development</p>
-            </div>
+            <a href="https://farouk1511.github.io/clipboard-landing-page/" target="_blank" rel="noreferrer">
+              <div className="h-48 w-64 ">
+                <img className=" object-fill h-full w-full" src={project8} />
+              </div>
+              <div className="flex flex-col mt-3 px-2">
+                <h1 className="font-bold">Clipboard</h1>
+                <p className="text-[#d6d6d6]">Web development</p>
+              </div>
+            </a>
           </div>
           {/* porfoilio box */}
           <div>
-            <div className="h-48 w-64 rounded-2xl bg-slate-500">
-            <img className="rounded-2xl" src={project9}/>
-            </div>
-            <div className="flex flex-col mt-3 px-2">
-              <h1 className="font-bold">Finance</h1>
-              <p className="text-[#d6d6d6]">Web development</p>
-            </div>
+            <a href="https://ping-coming-sonn-page.vercel.app/" target="_blank" rel="noreferrer">
+              <div className="h-48 w-64 ">
+                <img className=" object-fill h-full w-full" src={project9} />
+              </div>
+              <div className="flex flex-col mt-3 px-2">
+                <h1 className="font-bold">Ping</h1>
+                <p className="text-[#d6d6d6]">Web development</p>
+              </div>
+            </a>
           </div>
-
-          
         </div>
       </div>
     </main>

@@ -32,11 +32,11 @@ const SideInfo = () => {
           detail="kazeem.faroukk@gmail.com"
           icon={MailUnreadOutline}
         />
-        <Contact
+        {/* <Contact
           type="Phone"
           detail="+1 6479783403"
           icon={PhonePortraitOutline}
-        />
+        /> */}
         <Contact
           type="Location"
           detail="Ontario, Canada"
