@@ -1,7 +1,6 @@
 import myAvatar from "./assets/images/me-rep.png";
 import {
   MailUnreadOutline,
-  PhonePortraitOutline,
   LocationOutline,
   LogoLinkedin,
   FileTrayFullOutline,

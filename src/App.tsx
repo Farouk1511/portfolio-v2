@@ -1,11 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Blog from "./Blog";
 import MainInfo from "./MainInfo";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import SideInfo from "./SideInfo";
-import NavBar from "./NavBar";
 import NoPage from "./NoPage";
 import ContactMe from "./ContactMe";
 
