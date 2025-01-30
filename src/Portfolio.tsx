@@ -1,4 +1,3 @@
-import NavBar from "./NavBar";
 import project1 from "./assets/images/project-magement-app-desktop-preview.png";
 import project2 from "./assets/images/glass-tree-desktop-preview.png";
 import project3 from "./assets/images/fylo-dark-desktop-preview.jpg";
@@ -8,20 +7,12 @@ import project6 from "./assets/images/job-listing-desktop-preview.jpg";
 import project7 from "./assets/images/insure-desktop-preview.jpg";
 import project8 from "./assets/images/clipboard-desktop-preview.jpg";
 import project9 from "./assets/images/ping-desktop-preview.jpg";
+import InfoContainer from "./InfoContainer";
 
 const Portfolio = () => {
   return (
-    <main className="w-full lg:w-[900px] bg-[#1e1e1f] text-white rounded-2xl h-auto flex flex-col border-[#383838] border-2">
-      <div className="flex justify-between w-full items-end pl-8">
-        <div className="text-3xl font-bold">Portfolio</div>
-
-        <NavBar />
-      </div>
-
-      <div className="px-8">
-        <div className="w-10 h-1 bg-[#ffdb70] mt-4" />
-
-        <div className="flex gap-3 text-[#d6d6d6] mt-5">
+    <InfoContainer name="Portfolio">
+       <div className="flex gap-3 text-[#d6d6d6] mt-5">
           <div className="cursor-pointer hover:text-[#ffdb70] transition-colors">
             All
           </div>
@@ -155,8 +146,7 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-      </div>
-    </main>
+    </InfoContainer>
   );
 };
 

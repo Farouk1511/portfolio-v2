@@ -10,8 +10,8 @@ import ContactMe from "./ContactMe";
 
 function App() {
   return (
-    <Router>
-      <div className="flex flex-col lg:flex-row gap-10 w-full min-h-[100vh] bg-[#121212] px-4 sm:px-12 md:px-24 py-12 justify-center">
+    <div className="flex flex-col lg:flex-row  gap-10  bg-[#121212] px-4  py-12 justify-center">
+      <Router>
         <SideInfo />
         <main>
           <Routes>
@@ -23,8 +23,8 @@ function App() {
             <Route path="*" element={<NoPage />} />
           </Routes>
         </main>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
