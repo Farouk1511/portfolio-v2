@@ -103,7 +103,7 @@ const Resume = () => {
                 June 2024 - Present
               </span>
               <p className="timeline-text text-light-gray font-light leading-[1.6]">
-                About A simple project management tool using nextjs, typescript,
+                 A simple project management tool using nextjs, typescript,
                 apollo client, monogodb and ant design
               </p>
             </li>
