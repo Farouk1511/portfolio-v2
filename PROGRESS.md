@@ -21,3 +21,24 @@
 - Todo after launch
     - Refactor code
     - Create shared components for uniformity 
+
+## 2025-01-29
+- Launched website today
+- Optimize for mobile 
+    - fix margin issue
+    - change layout for side nav bar
+    - fix bugs people noticed
+    - Refactor component to make then reusable
+
+- Notes
+    - Tailwind is a mobile first framework, so unprefixed will be used as mobile styles, prefixed styles will be used for that screen breakpoint and above not below
+- Todo
+    - Portfoilio page: section redo
+    - About Me page: Re-do what am i doing box
+    - add functionality to contact me *
+
+## 2025-01-30
+
+- Todo
+    - About Me page: Re-do what am i doing box
+    - add functionality to contact me *
